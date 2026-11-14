@@ -10,10 +10,10 @@
     list-style: none;
 }
 :root{
-    --bg-color: #fcfcfc;
-    --second-bg-color: #238dff;
-    --text-color: black;
-    --main-color:  #155bff;
+    --bg-color:#fcfcfc;
+    --second-bg-color:#238dff;
+    --text-color:black;
+    --main-color:#155bff;
 }
 
 html{
@@ -174,7 +174,7 @@ span{
     z-index: -5;
     transition: 0.5s ease-in-out;
 }
-.packages-container  .packages-box:first-of-type{
+.packages-container .packages-box:first-of-type{
     background: url(assets/6.jpg)center;
     background-size: cover;
 }
@@ -293,3 +293,45 @@ span{
     font-weight: 600;
     color: white;
 }
+.contact{
+    background: url(assets/8.jpg)center;
+    backdrop-filter: blur(1px);
+}
+.contact:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    z-index: -5;
+}
+.contct h2{
+    margin-top: 10rem;
+    color: white;
+}
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-top: 8rem;
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--bg-color);
+    border-radius: 0.8rem;
+    border: 2px solid var(--main-color);
+    margin: 1rem 0;
+}
+
+
