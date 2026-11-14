@@ -175,15 +175,15 @@ span{
     transition: 0.5s ease-in-out;
 }
 .packages-container .packages-box:first-of-type{
-    background: url(assets/6.jpg)center;
+    background: url(https://plus.unsplash.com/premium_photo-1670493556860-13e006e6faa4?q=80&w=997&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D)center;
     background-size: cover;
 }
 .packages-container .packages-box:nth-of-type(2){
-    background: url(assets/7.jpg)center;
+    background: url(https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D)center;
     background-size: cover;
 }
 .packages-container .packages-box:nth-of-type(3){
-    background: url(assets/3.jpg)center;
+    background: url(https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D)center;
     background-size: cover;
 }
 .packages-container .packages-box:hover{
@@ -245,7 +245,8 @@ span{
     gap: 1.5rem;
     margin: auto;   
 }
-.destinations-container .destinations-box{
+.destinations-container 
+.destinations-box{
     border-radius: 2rem;
     overflow: hidden;
     min-height: 250px;
@@ -262,7 +263,8 @@ span{
     transform: scale(1.05);
     filter: blur(0);
 }
-.destinations-box .destinations-info{
+.destinations-box 
+.destinations-info{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -278,7 +280,8 @@ span{
     cursor: pointer;
     transition: 0.5s ease;
 }
-.destinations-box .destinations-info:hover{
+.destinations-box 
+.destinations-info:hover{
     background: radial-gradient(#00000050, rgb(0, 0, 0, 0.5));
     transform: scale(1.03);
 }
