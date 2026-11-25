@@ -7,6 +7,7 @@ TravelX is a basically a travel website which is more like a website to explore 
 
 - Explore diff destinations from different parts of the world.
 - Browse destinations through the respective pages.
+- A special tilt effect on the destination cards.
 
 
 ## Built With
