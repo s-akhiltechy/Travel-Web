@@ -40,6 +40,11 @@ TravelX is a basically a travel website which is more like a website to explore 
 
 ![Travel Tips Section](preview/preview7.png)
 
+## NOTE
+
+The Contact form is not connected to my mail as it is a public repository.It is just used as a placeholder
+and also the Newsletter section is just a place holder.It will not do anything.Maybe in the futre I might add something.
+
 
 
 ## Author
